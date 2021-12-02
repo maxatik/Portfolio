@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url('SegoeUI.eot');
+    src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI.woff') format('woff'),
+    url('SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+        font-family: 'Whitney Light';
+        src: url("fonts/Whitney-Light.eot");
+        src: url('Whitney-Light.eot?#iefix') format('embedded-opentype'),
+        url("fonts/Whitney-Light.woff") format('woff'),
+        url("fonts/Whitney-Light.ttf") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+body{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+.header_inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_nav_2{
+    display: flex;
+    align-items: center;
+    width: 90px;
+    justify-content: space-between;
+}
+.nav_link{
+    font-family: Whitney Light;
+    font-style: normal;
+    font-weight: 325;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+}
+.intro{
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+    display: flex;
+    margin-bottom: 50px;
+}
+.intro_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro_title{
+    color: white;
+    font-family: Whitney Light;
+    font-size: 24px;
+}
+.intro_subtitle{
+    color: white;
+    font-family: Whitney Light;
+    font-size: 24px;
+}
+.benefits_content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.text_condition{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+}
+.benefits{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.features_item{
+    max-width: 570px;
+    max-height: 235px;
+    background: #F6F5F9;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px
+}
+.features_title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.features_exp{
+    text-align: center;
+    font-family: Whitney Light;
+}
+.footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer_items{
+    background: linear-gradient(90deg, #2D1686 0%, #4E33B5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer_txt{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.footer_text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
