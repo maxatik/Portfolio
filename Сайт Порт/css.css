@@ -73,6 +73,10 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.intro_text{
+    display: flex;
+    flex-direction: column;
+}
 .intro_title{
     color: white;
     font-family: Whitney Light;
@@ -83,14 +87,29 @@ a{
     font-family: Whitney Light;
     font-size: 24px;
 }
+.button_div{
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+    margin-top: 25px;
+}
+.button{
+    background-color: orange;
+    padding: .7em 1.5em;
+    border-radius: 8px;
+    max-width: 50%;
+}
 .benefits_content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 .text_condition{
+    align-items: center;
+}
+.text_condition_txt{
+    max-width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
     text-align: center;
     font-size: 24px;
 }
@@ -127,12 +146,61 @@ a{
 }
 .footer_txt{
     display: flex;
-    align-items: center;
-    margin-left: 15px;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .footer_text{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
     text-align: center;
+}
+
+
+
+@media (max-width: 1160px ) {
+    .header_inner{
+        display: flex;
+        justify-content: space-around;
+    }
+    .intro_content{
+        flex-direction: column;
+    }
+    .intro_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .intro_title{
+        text-align: center;
+    }
+    .intro_subtitle{
+        text-align: center;
+    }   
+    .benefits_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_image{
+        display: none;
+    }
+    .footer_items{
+        min-height: 250px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .text_condition{
+        text-align: center;
+    }
+    .button_div{
+        display: flex;
+        justify-content: space-around;
+        justify-self: center;
+        margin-top: 25px;
+    }
+    .footer_txt{
+        display: flex;
+        flex-direction: column;
+    }
 }
